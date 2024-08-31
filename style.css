@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+#header{
+    height:100vh;
+    background-image: url(IMAGES/background.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.logo{
+    margin-top: 30px;
+    width: 100px;
+}
+.header-text{
+  max-width: 350px;
+  margin-top: 140px;
+}
+h1{
+   font-size: 35px;
+}
+.square{
+    height:14px;
+    width: 14px;
+    background-color:#f67c92;
+  display: inline-block;
+    margin:15px 0;
+}
+.common-btn{
+  padding: 18px 40px;
+  background: transparent;
+  outline: none;
+  border: 2px solid #f67c92;
+  font-weight: bold;
+  cursor: pointer;
+}
+p{
+  font-size: 15px;
+  line-height: 18px;
+  color:#777;
+}
+.header-text button{
+   margin-top: 20px;
+   margin-bottom: 60px;
+}
+.line-1{
+  height:14px;
+  width:14px;
+  background: #f67c92;
+  display: inline-block;
+}
+.line-2{
+  height:3px;
+  width:80px;
+  background: #f67c92;
+  display: inline-block;
+}
+.line-3{
+  height:2px;
+  width:60px;
+  background: #f67c92;
+  display: inline-block;
+}
+.line{
+  line-height: 8px;
+}
+
+#sideNav{
+  height:100vh;
+  width:250px;
+  position:fixed;
+  right:-250px;
+  top:0;
+  background-color: #f67c92;
+  z-index: 2;
+}
+
+nav ul li{
+  list-style: none;
+  margin:50px 20px;
+}
+nav ul li a{
+  text-decoration: none;
+  color:#fff;
+}
+#menuBtn{
+  width:50px;
+  border:1px solid greenyellow;
+  position: fixed;
+  top:35px;
+  right:65px;
+  z-index:2;
+  cursor:pointer;
+}
